@@ -26,5 +26,6 @@ NAME="Public HTML Backup"
 
 mkdir $(date +%F)
 cd $(date +%F)
-cp -r $WORK_HTML .
+cp -r $WORK_HTML $WORK_DIR
+
 
