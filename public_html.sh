@@ -28,4 +28,8 @@ mkdir $(date +%F)
 cd $(date +%F)
 cp -r $WORK_HTML $WORK_DIR
 
+tar -czvf public_html.tar.gz public_html        #tar -xvf paquete.tar.gz
+rm -rf public_html
 
+echo
+echo "RESPALDO TERMINADO!!!"
